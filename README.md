@@ -8,29 +8,6 @@ Should include project name, description, installation instructions, brief descr
 
 My Flatiron Phase 1 Project is a single page API that can be used to make a todo list.
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
