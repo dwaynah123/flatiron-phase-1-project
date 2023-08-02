@@ -1,10 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('form').addEventListener('submit', (event) => {
         event.preventDefault();
-        let li = document.createElement('li');
-        let btn = document.createElement('button');
-        li.textContent = event.target.tasks.value;
-        document.querySelector('#listContainer').appendChild(li);
+        let p = document.createElement('p');
+        let checkBox = document.createElement("INPUT");
+        checkBox.setAttribute("type", "checkbox");
+        p.textContent = event.target.tasks.value;
+        document.querySelector('#listContainer').appendChild(checkBox);
+        document.querySelector('#listContainer').appendChild(p);
+        
     })
     document.querySelector('button').addEventListener("click", (event) => {
         event.preventDefault();
@@ -14,9 +17,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 })
-
-
-
-function resetList(){
-    
-}

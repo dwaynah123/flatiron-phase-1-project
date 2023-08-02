@@ -12,7 +12,7 @@ assignment: https://my.learn.co/courses/649/assignments/32803?module_item_id=829
 - [X] - 2 event different listeners
 - [ ] - iterate through arrays
 - [ ] - use array methods
-- [ ] - single page api
+- [X] - single page api
 - [ ] - 30+ commits
 - [ ] - render data in html dom
 - [ ] - array, 5 objects, 4 key-value pairs
