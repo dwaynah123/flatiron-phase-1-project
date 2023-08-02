@@ -9,7 +9,7 @@ assignment: https://my.learn.co/courses/649/assignments/32803?module_item_id=829
 - [X] - html css js files
 
 - [ ] - public api or db.json
-- [ ] - 2 event different listeners
+- [X] - 2 event different listeners
 - [ ] - iterate through arrays
 - [ ] - use array methods
 - [ ] - single page api

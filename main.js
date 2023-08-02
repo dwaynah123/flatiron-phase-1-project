@@ -6,4 +6,17 @@ document.addEventListener('DOMContentLoaded', () => {
         li.textContent = event.target.tasks.value;
         document.querySelector('#listContainer').appendChild(li);
     })
+    document.querySelector('button').addEventListener("click", (event) => {
+        event.preventDefault();
+        const list = document.getElementById("listContainer");
+        while (list.hasChildNodes()) {
+            list.removeChild(list.firstChild);
+        }
+    });
 })
+
+
+
+function resetList(){
+    
+}
