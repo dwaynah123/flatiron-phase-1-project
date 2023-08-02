@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let checkBox = document.createElement("INPUT");
         checkBox.setAttribute("type", "checkbox");
         p.textContent = event.target.tasks.value;
+        p.classList.add('taskList');
         document.querySelector('#listContainer').appendChild(checkBox);
         document.querySelector('#listContainer').appendChild(p);
         
