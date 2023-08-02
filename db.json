@@ -1,0 +1,34 @@
+{
+    "Tasks": [
+        {
+            "id": 1,
+            "Name": "Mop the house",
+            "Materials": "mop, cleaning liquid, water, bucket",
+            "Day": "Sunday"
+        },
+        {
+            "id": 2,
+            "Name": "Wash the dishes",
+            "Materials": "soap, sponge, water, sink, dirty dishes",
+            "Day": "Monday"
+        },
+        {
+            "id": 3,
+            "Name": "Clean the bathroom",
+            "Materials":"mop, cleaning liquid, scrubbing brush, water, bucket",
+            "Day": "Thursday"
+        },
+        {
+            "id": 4,
+            "Name": "Do the laundry",
+            "Materials": "dirty clothes, laundry detergent, fabric softner, laundry bags, cart",
+            "Day": "Friday"
+        },
+        {
+            "id": 5,
+            "Name": "Grocery shopping",
+            "Materials": "cart, grocery list, grocery bags",
+            "Day": "Saturday"
+        }
+]
+}

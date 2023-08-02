@@ -15,7 +15,10 @@ assignment: https://my.learn.co/courses/649/assignments/32803?module_item_id=829
 - [X] - single page api
 - [ ] - 30+ commits
 - [X] - render data in html dom
-- [ ] - array, 5 objects, 4 key-value pairs
+- [ ] - array, 5 objects, 3 key-value pairs
+
+    - Materials needed, Duration, Day to Complete, Name
+        - Mop the house, Wash dishes, Clean bathroom, Do Laundry, Grocery shopping
 
 ## Extra
 
