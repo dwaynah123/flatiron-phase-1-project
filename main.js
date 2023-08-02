@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
         p.classList.add('taskList');
         document.querySelector('#listContainer').appendChild(checkBox);
         document.querySelector('#listContainer').appendChild(p);
-        
     })
     document.querySelector('button').addEventListener("click", (event) => {
         event.preventDefault();
@@ -17,4 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
             list.removeChild(list.firstChild);
         }
     });
+
+    fetch("http://localhost:4000/Tasks")
+    .then((response) => response.json())
+    .then((dataObject) => {
+        console.log(dataObject);
+    })
 })
