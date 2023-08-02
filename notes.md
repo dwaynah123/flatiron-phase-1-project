@@ -14,7 +14,7 @@ assignment: https://my.learn.co/courses/649/assignments/32803?module_item_id=829
 - [ ] - use array methods
 - [X] - single page api
 - [ ] - 30+ commits
-- [ ] - render data in html dom
+- [X] - render data in html dom
 - [ ] - array, 5 objects, 4 key-value pairs
 
 ## Extra
