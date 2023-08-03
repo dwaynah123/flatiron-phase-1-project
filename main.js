@@ -20,6 +20,12 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch("http://localhost:4000/Tasks")
     .then((response) => response.json())
     .then((dataObject) => {
-        console.log(dataObject);
+        dataObject.forEach(post => {
+            let checkBox = document.createElement("INPUT");
+            checkBox.setAttribute("type", "checkbox");
+            document.querySelector('#listContainer').appendChild(checkBox);
+            const list = document.getElementById("listContainer");
+            list.insertAdjacentHTML('beforeend', `<p class="sample">${post.Name}</p>`);
+        });
     })
 })
